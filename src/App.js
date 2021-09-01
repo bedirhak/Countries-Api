@@ -1,10 +1,15 @@
-import './style/App.css';
+import './style/App.scss';
+import React from 'react';
+import Countries from './components/Countries';
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello World</p>
-    </div>
+    <>
+
+      <Countries/>
+
+      
+    </>
   );
 }
 
