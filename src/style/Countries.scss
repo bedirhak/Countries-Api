@@ -3,6 +3,5 @@
 .container{ width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; }
 
 
-.each-country{ width: 270px; height: 340px; margin-bottom: 80px; background-color:   hsl(207, 26%, 17%) ;}
-.each-country .image-container{ width:270px; height: 190px; overflow: hidden;  }
-.each-country .image-container img{ min-width: 100%; max-width: 100%;  min-height: 100%;  }
+.each-country{border-radius: 10px; width: 270px; height: 340px; margin-bottom: 80px; background-color:   rgb(32, 44, 55) ;}
+.each-country .image-container{ width:100%; min-height: 190px;  max-height: 100% ; background-size:contain;  background-repeat: no-repeat; }

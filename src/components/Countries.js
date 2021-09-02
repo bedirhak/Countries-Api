@@ -28,8 +28,7 @@ export const Countries = () => {
                         return(
                             <article key={numericCode}>
                                 <div className="each-country">
-                                    <div className="image-container" >
-                                        <img src={flag} alt={name}  />
+                                    <div className="image-container" style={{backgroundImage:'url('+flag+')',}} >
                                     </div>
                                     <h3>{name}</h3>
                                     <h4>Population: {population} </h4>
